@@ -1,0 +1,9 @@
+# Build results
+bin/
+
+# Working directory
+workdir/*
+!workdir/.gitkeep
+
+# Visual Studio cache/options directory
+.vs/

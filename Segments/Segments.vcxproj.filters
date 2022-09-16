@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LinAlg">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Profiling">
+      <UniqueIdentifier>{f729a625-de46-489d-852f-a12f05a4b223}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Profiling\time_check.cpp">
+      <Filter>Profiling</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Profiling\TimeLogger.cpp">
+      <Filter>Profiling</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LinAlg\linalg_utilities.cpp">
+      <Filter>LinAlg</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\LinAlg\linalg.h">
+      <Filter>LinAlg</Filter>
+    </ClInclude>
+    <ClInclude Include="source\LinAlg\linalg_utilities.h">
+      <Filter>LinAlg</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Profiling\time_check.h">
+      <Filter>Profiling</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Profiling\TimeLogger.h">
+      <Filter>Profiling</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
